@@ -28,9 +28,9 @@ public class DefenderSpawner : MonoBehaviour
         AttemptToPlaceDefenderAt(GetSquareClicked());
     }
 
-    public void SetSelectedDefender(Defender defenderToSelecet)
+    public void SetSelectedDefender(Defender defenderToSelect)
     {
-        defender = defenderToSelecet;
+        defender = defenderToSelect;
     }
 
     private void AttemptToPlaceDefenderAt(Vector2 gridPos)
